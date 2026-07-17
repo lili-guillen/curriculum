@@ -1,0 +1,186 @@
+body {
+    font-family: 'Calibri', 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #2D3748;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px 40px;
+    background: #f8fafc;
+}
+
+.download-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #1F4E79;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #163a57;
+}
+
+.header-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 3px solid #1F4E79;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.header-text {
+    vertical-align: middle;
+    text-align: left;
+    padding: 20px;
+}
+
+.header-photo {
+    vertical-align: middle;
+    text-align: right;
+    width: 140px;
+    padding: 20px;
+}
+
+.photo-container {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #1F4E79;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #E2E8F0;
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    color: #1F4E79;
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #4A5568;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-info {
+    font-size: 13px;
+    color: #718096;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+h2 {
+    color: #1F4E79;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 4px;
+}
+
+h3 {
+    color: #2D3748;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.company-line {
+    font-size: 14px;
+    color: #4A5568;
+    margin-bottom: 8px;
+}
+
+.date {
+    color: #1F4E79;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+p, li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #2D3748;
+    text-align: justify;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.skills-table td {
+    width: 50%;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 15px auto;
+        padding: 0 15px 30px;
+    }
+
+    .download-row {
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .header-table, .header-table tr, .header-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .header-text, .header-photo {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .photo-container {
+        margin: 0 auto;
+    }
+
+    .skills-table, .skills-table tr, .skills-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .skills-table td {
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+}
